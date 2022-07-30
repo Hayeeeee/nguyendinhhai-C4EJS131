@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlform</title>
+    <background><img height="200px" width="400px" src="portada_kubo-san-wa-mob.jpg" alt="nope"></background>
+    <style>
+        h1 {
+            text-align: justify;
+            color: black;
+            font-size: 50px;
+        }
+
+        h2 {
+            text-align: justify;
+            color: black;
+            font-size: 25px;
+        }
+
+        .button {
+            border: black;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+
+        <!--heading-->
+        <h1>
+            Sign up for an account
+        </h1>
+        <!--textform-->
+        <h2>About you:</h2>
+        <label for="name">Full name:</label>
+        <input type="text" id="name" placeholder="Nguyễn Văn A" /><br />
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="blablabla@gmail.com" /><br />
+        <label for="phonenumber">Phonenumber</label>
+        <input type="text" id="phonenumber" placeholder="09********" /><br />
+        <!--radiobutton-->
+        <h2>Select your gender:</h2>
+        <input type="radio" id="gender" name="gender" value="gender">
+        <label for="gender">male</label><br>
+        <input type="radio" id="gender" name="gender" value="gender">
+        <label for="gender">female</label><br>
+        <!--select-->
+        <h2>Your nation</h2>
+        <label for="nation">Nation:</label>
+        <select name="nation" id="nation" form="nation">
+            <option value="nation">Vietnam</option>
+            <option value="nation">Thailand</option>
+            <option value="nation">Japan</option>
+            <option value="nation">Chingchongkingdom</option>
+            <option value="nation"> other</option>
+        </select>
+        <!--button-->
+        <h2>Do you want to sign up?</h2>
+        <button class="button button">sign up</button><br>
+
+    </form>
+
+</body>
+
+</html>
