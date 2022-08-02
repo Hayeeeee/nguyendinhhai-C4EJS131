@@ -1,0 +1,70 @@
+#header{ 
+    border: 0ch; width: 100%; background-color: rgb(14, 180, 42); 
+    height: 15px;
+    
+
+   
+}
+#bruh{
+    border:0; width: 90% ; margin-left: 100px;
+}
+#lmao{
+    font-family: "Comic sans MS"; font-size: 30px;
+    height: 10px ;
+}
+.homie{
+    size: 5; color: black; font-size: 28px; text-align: right;
+}
+#home{
+    border:"1cm" width="100%" ; 
+    background-color: black;
+    height: 25px;
+    width:100%
+}
+#home2{
+    border:"1cm"  width="90%" align="center";
+    background-color: black;
+    
+}
+#home3{
+    color: aliceblue;
+    size: 6cm;
+    text-align: center;
+}
+#about{
+    border:0ch;
+    width: 125%;
+    border-bottom-color: aliceblue;
+ 
+}
+#about2{
+    border:"0";
+    text-align: center;
+    size: 300px;
+    color: greenyellow;
+}
+#about2{
+    background-color: black;
+}
+.div{
+    text-align: center; size: 100px;
+}
+#projects{
+    border:"0";
+    background-color: grey;
+    
+}
+#achievements{
+    background-color: black;
+}
+#footer{
+    background-color: black;
+    
+}
+#contact{
+    background-color: gray;
+}
+#contact2{
+    background-color: black;
+    -moz-box-align: center;
+}
