@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    color: azure;
+    background-color: rgb(114, 57, 168) ;
+    line-height: 100px;
+    padding:0 200px;
+    margin: 0%;
+}
+
+h1 {
+    margin-left: 100px;
+    
+}
+article {
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h2{
+    margin-left: 300px;
+    font-size: 50px;
+}
+#class-row {
+    border-radius: 5px;
+    border: 10px;
+}
+.button{
+    width: 15%; 
+    height: 50px;
+    color: aliceblue;
+    background: rebeccapurple;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.card{
+    width: 50%;
+    padding:3%;
+    font-size: 20px;
+    border: 1px solid rgb(46, 46, 47);
+}
+footer{
+    border-top: 1px solid rgb(114, 57, 168);
+    margin-top: 50px;
+}
